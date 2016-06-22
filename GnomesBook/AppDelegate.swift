@@ -16,7 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        do {
+            //try AppManager.sharedInstance.start((self.window?.rootViewController?.storyboard)!)
+            try AppManager.sharedInstance.start(self.window?.rootViewController)
+            return true
+        } catch {
+            exit(EXIT_FAILURE)
+        }
+        
+        /*//let rootViewController = self.window!.rootViewController
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let loadingViewController = mainStoryboard.instantiateViewControllerWithIdentifier("LoadingViewController") as! LoadingViewController
+        //rootViewController?.navigationController?.pushViewController(loadingViewController, animated: true)
+        window?.rootViewController?.navigationController?.pushViewController(loadingViewController, animated: false)
+        
+        AppManager.sharedInstance.start(loadingViewController)
+        
+        return true*/
     }
 
     func applicationWillResignActive(application: UIApplication) {

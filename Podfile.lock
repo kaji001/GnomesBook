@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (3.0.1)
+  - HanekeSwift (0.10.1)
+  - NVActivityIndicatorView (2.8)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0.1)
+  - HanekeSwift
+  - NVActivityIndicatorView (~> 2.8)
+
+SPEC CHECKSUMS:
+  Alamofire: 2457e1b2e6c46bb05c3a598c542b7bfd08893775
+  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
+  NVActivityIndicatorView: 6aba1dbbd893f615a9452c9e66ae46473e1ce092
+
+PODFILE CHECKSUM: dc4f378bbd68c7ad65ace3e2d69b5b7e862c5305
+
+COCOAPODS: 1.0.1
