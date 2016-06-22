@@ -6,6 +6,6 @@ target 'GnomesBook' do
 	use_frameworks!
 
     pod 'Alamofire', '~> 3.0.1'
-	pod 'NVActivityIndicatorView', '~> 2.8'
+    pod 'NVActivityIndicatorView', '~> 2.8'
     pod 'HanekeSwift'
 end
