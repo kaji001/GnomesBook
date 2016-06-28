@@ -1,4 +1,4 @@
-# GnomesBook
+# GnomesBook version Swift
 
 Aplicación de iOS para que los héroes que lleguen al pueblo Gnomo puedan acceder a la información de sus habitantes.
 
